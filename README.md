@@ -1,4 +1,4 @@
-initial commit <br>
+initial setup <br>
 
 ### `npm install`
 
