@@ -31,7 +31,7 @@ export class AddUsers extends Component {
             onChange={this.handleChange}
             value={this.state.email}
           />
-          <button className="btn red-btn right indigo">button</button>
+          <button className="btn red-btn right indigo">Submit</button>
         </form>
       </div>
     );
