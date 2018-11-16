@@ -5,7 +5,7 @@ const Users = ({ users, deleteUsers }) => {
     users.map(user => {
       return (
         <div className="collection-item" key={user.id}>
-          <span onClick={() => {deleteUsers(user.id)}}>{user.email}</span>
+          <span>{user.email}</span>
           <button className="right waves-effect waves-light red-text" onClick={() => {deleteUsers(user.id)}}>X</button>
         </div>
       );
